@@ -9,7 +9,7 @@
     "preversion": "gulp test",
     "version": "gulp build",
     "postversion": "git push && git push --tags",
-    "prepublish": "gulp build"
+    "postinstall": "gulp build"
   },
   "keywords": [
     "stellar"
